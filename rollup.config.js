@@ -16,7 +16,7 @@ import cssnano from 'cssnano';
 import typescriptPlugin from 'rollup-plugin-typescript';
 import typescript from 'typescript';
 export default {
-  input:"src/index.ts",
+  input:"src/index.tsx",
   output:{
      file:"./dist/index.min.js",
      format:"cjs"
