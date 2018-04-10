@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "rollup -c -w --env NODE_ENV:development",
-    "prod": "rollup -c --env NODE_ENV:production"
+    "dev": "rollup -c -w --env ENV:development",
+    "prod": "rollup -c --env ENV:production"
   },
   "author": "yuxl",
   "license": "MIT",
